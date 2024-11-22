@@ -1,0 +1,141 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+/* Contenido Principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor-productos {
+    display: flex;
+    gap: 30px;
+}
+
+/* Filtros */
+.filtros {
+    width: 250px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.grupo-filtro {
+    margin-bottom: 20px;
+}
+
+.grupo-filtro h4 {
+    margin-bottom: 10px;
+}
+
+.grupo-filtro label {
+    display: flex;
+    margin: 8px 0;
+}
+
+/* Productos */
+.productos {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    padding: 15px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.imagen-producto {
+    height: 150px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.precio {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.producto button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 40px 20px;
+    border-top: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+.contenedor-pie {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ayuda-pie {
+    text-align: left;
+}
+
+.boton-ayuda {
+    margin-top: 15px;
+}
+
+.info-pie {
+    display: flex;
+    gap: 40px;
+}
+
+.columna-info {
+    min-width: 180px;
+}
+
+.columna-info h4 {
+    margin-bottom: 15px;
+}
+
+.columna-info p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.redes-sociales {
+    text-align: right;
+}
