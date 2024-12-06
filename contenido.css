@@ -159,3 +159,67 @@ footer {
 .redes-sociales {
     text-align: right;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .header-left {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header input {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .contenedor-productos {
+        flex-direction: column;
+    }
+
+    .filtros {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .productos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .contenedor-pie {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-pie {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .productos {
+        grid-template-columns: 1fr;
+    }
+
+    #contenedos-elementos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .producto {
+        width: 100%;
+    }
+
+    .grupo-filtro {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

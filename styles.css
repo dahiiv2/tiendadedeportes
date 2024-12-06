@@ -129,3 +129,59 @@ footer {
 .redes-sociales {
     text-align: right;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    header input {
+        margin: 10px 0;
+    }
+
+    .seccion-top {
+        flex-direction: column;
+    }
+
+    .noticias, 
+    .sobre-nosotros {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-pie {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-pie {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .columna-info {
+        width: 100%;
+    }
+
+    .ayuda-pie {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #contenedos-elementos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contenido-btn {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
