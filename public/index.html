@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Deportes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <header>
@@ -20,6 +20,21 @@
     </header>
 
     <main>
+        <div class="upload-section">
+            <h2>Compartir Imagen</h2>
+            <form id="uploadForm" class="upload-form">
+                <input type="file" id="imageInput" accept="image/*" required>
+                <button type="submit">Subir Imagen</button>
+            </form>
+            <div id="currentImage" class="current-image">
+                <!-- Current image will be displayed here -->
+            </div>
+        </div>
+
+        <div id="imageGallery" class="image-gallery">
+            <!-- Images will be loaded here -->
+        </div>
+
         <div class="seccion-top">
             <div class="noticias">
                 <h2>Noticias</h2>
@@ -81,5 +96,6 @@
             </div>
         </div>
     </footer>
+    <script src="/js/upload.js"></script>
 </body>
 </html>
