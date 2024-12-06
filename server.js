@@ -88,7 +88,8 @@ app.get('/images', (req, res) => {
   res.json(currentImage ? [currentImage] : []);
 });
 
-const PORT = process.env.PORT || 3002;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+// Use Railway's PORT or fallback to 3000
+const port = process.env.PORT || 3000;
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server running on port ${port}`);
 });
