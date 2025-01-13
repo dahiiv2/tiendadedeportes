@@ -98,6 +98,12 @@ main {
     justify-content: center;
 }
 
+.imagen-producto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .producto h3 {
     margin: 10px 0;
 }
