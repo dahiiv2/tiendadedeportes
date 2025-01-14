@@ -83,6 +83,12 @@ main {
     margin-top: 0;
 }
 
+#logo {
+    height: 100px;
+    width: 100px;
+    padding-right: 50px;
+}
+
 /* Pie de página */
 
 footer {

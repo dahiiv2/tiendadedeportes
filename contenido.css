@@ -38,6 +38,13 @@ header input {
     border-color: #999;
 }
 
+#logo {
+    height: 100px;
+    width: 100px;
+    padding-right: 30px;
+}
+
+
 /* Contenido Principal */
 main {
     padding: 20px;
